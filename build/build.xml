@@ -1047,6 +1047,8 @@ called from `init` target. -->
       <exclude name="**/*.panels_default.inc" />
       <exclude name="**/*.strongarm.inc" />
       <exclude name="**/*.views_default.inc" />
+      <!-- exclude all files from coder-module -->
+      <exclude name="**/coder/**" />      
     </patternset>
 
     <!-- Define file sets for future reference -->
